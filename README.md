@@ -1,5 +1,5 @@
 # cintel-03-reactive
-# ------------------------
+--------
 
 ## Additional Python Notes
 ### Capitalization matters in Python. Python is case-sensitive: min and Min are different.

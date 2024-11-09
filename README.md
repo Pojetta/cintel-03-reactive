@@ -16,7 +16,7 @@
 * #### The function name should describe what the function does.
 * #### In the parentheses, specify the inputs needed as arguments the function takes.
 
-####     For example:
+#### >    For example:
  * #####    The function filtered_data() takes no arguments.
  * #####    The function between(min, max) takes two arguments, a minimum and maximum value.
  * #####    Arguments can be positional or keyword arguments, labeled with a parameter name.

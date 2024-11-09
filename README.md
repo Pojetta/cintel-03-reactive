@@ -11,15 +11,15 @@
 * ### We define custom functions that can be called later in the code.
 * ### Functions are blocks of logic that can take inputs, perform work, and return outputs.
 
-## Defining Functions
-* ### Define a function using the def keyword, followed by the function name, parentheses, and a colon. 
-* ### The function name should describe what the function does.
-* ### In the parentheses, specify the inputs needed as arguments the function takes.
+### Defining Functions
+* Define a function using the def keyword, followed by the function name, parentheses, and a colon. 
+* The function name should describe what the function does.
+* In the parentheses, specify the inputs needed as arguments the function takes.
 
 #### For example:
- #####    The function filtered_data() takes no arguments.
- #####    The function between(min, max) takes two arguments, a minimum and maximum value.
- #####    Arguments can be positional or keyword arguments, labeled with a parameter name.
+ * #####    The function filtered_data() takes no arguments.
+ * #####    The function between(min, max) takes two arguments, a minimum and maximum value.
+ * #####    Arguments can be positional or keyword arguments, labeled with a parameter name.
 
 * ### The function body is indented (consistently!) after the colon. 
 * ### Use the return keyword to return a value from a function.

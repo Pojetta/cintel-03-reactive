@@ -1,3 +1,4 @@
+from shiny import reactive
 import plotly.express as px
 from palmerpenguins import load_penguins
 from shiny.express import input, ui, render
@@ -120,3 +121,16 @@ with ui.layout_columns():
             ax.set_xlabel(input.selected_attribute())
             ax.set_ylabel("Count")
             return ax
+
+# --------------------------------------------------------
+# Reactive calculations and effects
+# --------------------------------------------------------
+
+# Add a reactive calculation to filter the data
+# By decorating the function with @reactive, we can use the function to filter the data
+# The function will be called whenever an input function used to generate that output changes.
+# Any output that depends on the reactive function (e.g., filtered_data()) will be updated when the data changes.
+
+@reactive.calc
+def filtered_data():
+    return penguins

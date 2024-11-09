@@ -17,9 +17,9 @@
 * #### In the parentheses, specify the inputs needed as arguments the function takes.
 
 #### For example:
-  * ##### **The function filtered_data() takes no arguments.**  
-  * ##### **The function between(min, max) takes two arguments, a minimum and maximum value.**  
-  * ##### **Arguments can be positional or keyword arguments, labeled with a parameter name.**  
+  * ##### *The function filtered_data() takes no arguments.*  
+  * ##### *The function between(min, max) takes two arguments, a minimum and maximum value.*  
+  * ##### *Arguments can be positional or keyword arguments, labeled with a parameter name.*  
 
 * #### The function body is indented (consistently!) after the colon. 
 * #### Use the return keyword to return a value from a function.

@@ -62,7 +62,7 @@ with ui.layout_columns():
         @render_plotly
         def plotly_histogram():
             return px.histogram(
-                penguins,
+                filtered_data(),
                 x=input.selected_attribute(),
                 nbins=input.plotly_bin_count(),
                 color="species",
@@ -75,7 +75,7 @@ with ui.layout_columns():
 
         @render.data_frame
         def data_table():
-            return render.DataTable(penguins)
+            return render.DataTable(filtered_data())
 
     # Display Data Grid (showing all data)
     with ui.card():
@@ -83,7 +83,7 @@ with ui.layout_columns():
 
         @render.data_frame
         def data_grid():
-            return render.DataGrid(penguins)
+            return render.DataGrid(filtered_data())
 
 with ui.layout_columns():
     # Plotly Scatterplot (showing selected species)
@@ -113,7 +113,7 @@ with ui.layout_columns():
         @render.plot
         def seaborn_histogram():
             ax = sns.histplot(
-                data=penguins,
+                data=filtered_data(),
                 x=input.selected_attribute(),
                 bins=input.seaborn_bin_count(),
             )

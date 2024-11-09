@@ -6,10 +6,10 @@
 * ### Spelling matters in Python. You must match the spelling of functions and variables exactly.
 * ### Indentation matters in Python. Indentation is used to define code blocks and must be consistent.
 
-## Functions
-* ### Functions are used to group code together and make it more readable and reusable.
-* ### We define custom functions that can be called later in the code.
-* ### Functions are blocks of logic that can take inputs, perform work, and return outputs.
+### Functions
+* #### Functions are used to group code together and make it more readable and reusable.
+* #### We define custom functions that can be called later in the code.
+* #### Functions are blocks of logic that can take inputs, perform work, and return outputs.
 
 ### Defining Functions
 * Define a function using the def keyword, followed by the function name, parentheses, and a colon. 
